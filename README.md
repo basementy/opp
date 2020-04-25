@@ -1,2 +1,2 @@
 # OOP Class
-A repository for my Object Oriented Programming class
+A repository for my Object Oriented Programming classes
