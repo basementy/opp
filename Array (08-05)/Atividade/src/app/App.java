@@ -20,8 +20,7 @@ public class App {
 				Integer.parseInt(productPrice)
 			);
 
-			productsArray[i].calculateSale(
-					Integer.parseInt(productQuantity));
+			productsArray[i].calculateSale(Integer.parseInt(productQuantity));
 		}
 	}
 }
