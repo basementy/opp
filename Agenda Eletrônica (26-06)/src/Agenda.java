@@ -101,7 +101,6 @@ public class Agenda {
   public void listAllContact() {
     System.out.print("\033[H\033[2J");
     System.out.flush();
-
     System.out.print("-> Lista de contatos\n\n");
     System.out.print("Nome\t\t");
     System.out.print("Telefone\n");
