@@ -1,9 +1,8 @@
 public class Agenda {
   private Contato[] contatos;
 
-  public static void main(String args[]) {
-    Agenda mainAgenda = new Agenda();
-    mainAgenda.menu();
+  public Agenda(int size) {
+    this.contatos = new Contato[size];
   }
 
   public void menu() {
