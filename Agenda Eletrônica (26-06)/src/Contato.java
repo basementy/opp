@@ -3,16 +3,16 @@ public class Contato {
   private String phone;
 
   public Contato(String name, String phone) {
-    this.name = name;
-    this.phone = phone;
+    this.setName(name);
+    this.setPhone(phone);
   }
 
   public String getName() {
-    return name;
+    return this.name;
   }
 
   public String getPhone() {
-    return phone;
+    return this.phone;
   }
 
   public void setPhone(String phone) {
