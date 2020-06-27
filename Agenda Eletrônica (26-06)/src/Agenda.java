@@ -84,7 +84,7 @@ public class Agenda {
         founded = true;
 
         System.out.print(currentContact.getName() + "\t\t");
-        System.out.print(currentContact.getPhone());
+        System.out.print(currentContact.getPhone() + "\n");
       }
     }
 
