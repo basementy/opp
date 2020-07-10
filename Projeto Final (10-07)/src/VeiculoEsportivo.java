@@ -13,7 +13,7 @@ public class VeiculoEsportivo extends Veiculo {
 		this.turbo = turbo;
 	}
 
-	public void showGastoTotal() {
+	public void updateGastoTotal() {
     double gasto = this.getViagem().getGastoCombustivel();
     double tanque = Math.round(this.getTanqueGasolina() * 100) / 100;
 
